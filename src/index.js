@@ -93,7 +93,6 @@ class Game extends React.Component {
         </li>
       );
     })
-    console.log(moves);
     
     let status;
     if (winner) {
